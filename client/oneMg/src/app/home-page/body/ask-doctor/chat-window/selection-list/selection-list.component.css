@@ -1,0 +1,81 @@
+.selectionListOverlay
+{
+    width: 80%;
+    border-radius:5px;
+    background: white;
+    clear: both;
+    padding: 10px;
+    box-sizing: border-box;
+    color: black;
+    float: right;
+    margin-top: 19px;
+}
+.removeBg
+{
+    background: transparent ;
+    margin-top: 0px;
+}
+.selectionListOverlay > p:first-child
+{
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+}
+.selectionListOverlay > p:last-child
+{
+    font-size: 14px;
+    text-align: right;
+    color: #ff6f61;
+    margin: 0;
+    cursor: pointer;
+}
+.listOfSymptoms
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.list
+{
+    padding: 5px;
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+.list > img
+{
+    float: left;
+    width: 27px;
+    border: 1px solid #ff6f61;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.list > p
+{
+    float: right;
+    margin-left: 10px;
+    margin-top: 2px;
+    max-width: 86%;
+    font-size: 13px;
+}
+.enable
+{
+    display: block;
+}
+.disable
+{
+    display: none;
+}
+#selectedTxt
+{
+  float:right;
+  position: relative;
+  background-color: #fa9e96;
+  color:white;
+  box-shadow: 0px 0px 4px grey;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  padding: 10px;
+  max-width: 84%;
+}

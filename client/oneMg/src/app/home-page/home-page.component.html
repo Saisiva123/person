@@ -1,0 +1,8 @@
+<navigation></navigation>
+<body ></body>
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}" *ngIf="showScrollBtn">
+    <button (click)="scrollToTop()" class="button">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+  </div>
+<router-outlet name="Authentication"></router-outlet>

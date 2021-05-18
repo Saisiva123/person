@@ -1,0 +1,21 @@
+.chatBtns
+{
+    width: 80%;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 12px;
+}
+button
+{
+    margin-left: 10px;
+    background-color: white;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+.selectedBtn
+{
+    background-color: #fa9e96;
+    color:white;
+}

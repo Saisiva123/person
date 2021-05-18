@@ -1,0 +1,6 @@
+<div class="chatBtns" *ngIf="!selectedOptions.selected">
+    <button  mat-raised-button *ngFor="let btns of btnMessages.msg" (click)="selectedBtn(btnMessages,btns)">{{btns}}</button>
+</div>
+<div class="chatBtns" *ngIf="selectedOptions.selected">
+    <button mat-raised-button class="selectedBtn">{{selectedOptions.selectedVal}}</button>
+</div>

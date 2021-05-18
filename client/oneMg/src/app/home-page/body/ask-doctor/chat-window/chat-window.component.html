@@ -1,0 +1,25 @@
+<div class="chatWindow" *ngIf="enableChatWindow">
+    <div class="title">
+        <img src="../../../../../assets/close.png" class="closeIcon" (click)="disableChat()">
+        <img src="../../../../../assets/mascot.png">
+        <p>1mg Health Assistant</p>
+    </div>
+    <div class="msgWindow" #scrollMe [ngClass]="{'decreaseHeight':inputEnabled}">
+
+        <div class="messages" >
+            <div *ngFor="let message of allResponses">
+                <app-text [txtMessages]="message" *ngIf="message.category=='txt'"></app-text>
+                <app-buttons [btnMessages]="message"  *ngIf="message.category=='btn'"></app-buttons>
+                 <app-selection-model [modelMessages]="message" *ngIf="message.category=='modelOptions'"></app-selection-model> 
+                 <app-selection-list [listOfSymptomMessages]="message" *ngIf="message.category=='selection'"></app-selection-list>
+                </div>
+        </div>
+
+
+        <div class="img" *ngIf="showLoading">
+            <img src="../../../../../assets/mascot.png">
+            <img src="../../../../../assets/loader.gif">
+        </div>
+    </div>
+    <app-input></app-input>
+</div>

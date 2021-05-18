@@ -1,0 +1,26 @@
+<div class="selectOverlay" *ngIf="!showSubmittedTxt">
+    <div class="selectedValues">
+        <mat-chip-list >
+        <mat-chip *ngFor="let val of selectedValues">
+          {{val}}
+         </mat-chip>
+         </mat-chip-list>
+      </div>
+
+    <input type="text" placeholder="Search your Symptom or type here" [(ngModel)]="inputVal" (input)="applyFilters()">
+    <div class="listOfSymptoms">
+        <div class="list" *ngFor="let val of modelMessages.msg;let i=index">
+            <p>{{val.txt}}</p>
+           <div class="optionsList">
+            <mat-checkbox *ngFor="let symptom of filteredList[i];let i=index" #checkBox (click)="selectedOption(i)">
+                {{symptom}}
+            </mat-checkbox>
+            
+            </div>
+        </div>
+    </div>
+    <p id="doneTxt" (click)="submit()" [ngClass]="{'highlightTxt':selectedValues.length>0}">DONE</p>
+</div>
+<div class="selectedOverlay" *ngIf="showSubmittedTxt">
+    <p  id="selectedTxt">You are suffering with <br>{{submittedTxt}}</p>
+</div>

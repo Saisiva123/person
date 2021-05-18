@@ -1,0 +1,773 @@
+{
+    "Boost Your Immunity": {
+        "CATEGORIES": [
+            "Boost Your Immunity",
+            "Masks",
+            "Pulse Oximeter",
+            "Sanitizer",
+            "Thermometer",
+            "Disinfectants"
+        ],
+        "BRANDS": {
+            "Rhino": 5,
+            "Sharrets": 5,
+            "Shrey's": 5,
+            "Vedaone": 5,
+            "Vitrovea": 5,
+            "AVG": 4,
+            "Age Ayurveda": 4,
+            "Alna": 4,
+            "Bioneeva Herbs": 4
+        },
+        "DISCOUNT": {
+            "Less than 10%": 10,
+            "10% and above": 283,
+            "20% and above": 128,
+            "30% and above": 100
+        },
+        "PRODUCT FORM": {
+            "Flakes": 4,
+            "Leaves": 4,
+            "Pellets": 4,
+            "Ark": 3,
+            "Bark": 3,
+            "Microgranules": 3,
+            "Chewable Tablet": 2,
+            "Chewing Gums": 2,
+            "Combo Pack": 2,
+            "Expectorant": 2
+        },
+        "USES":{
+          "Immunity Booster":438,
+          "Stomach Care":331,
+          "Skin Care":316,
+          "Cardiac Care":312,
+          "Mind Care":285,
+          "Nutritional Deficiencies":285,
+          "Diabetes Care":274
+        },
+        "ITEMS":[
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            }
+        ] 
+    },
+    "Masks": {
+        "CATEGORIES": [
+            "Boost Your Immunity",
+            "Masks",
+            "Pulse Oximeter",
+            "Sanitizer",
+            "Thermometers",
+            "Disinfectants"
+        ],
+        "BRANDS": {
+            "Faballey": 63,
+            "Airific": 24,
+            "Linen Club": 24,
+            "Dominion Care": 23,
+            "Care View": 22,
+            "SilverPRO": 19,
+            "Soxytoes": 18,
+            "Hyzinik": 17
+        },
+        "DISCOUNT": {
+            "Less than 10%": 170,
+            "10% and above": 383,
+            "20% and above": 208,
+            "30% and above": 160
+        },
+        "PRODUCT FORM": {
+            "Flakes": 4,
+            "Leaves": 4,
+            "Pellets": 4,
+            "Ark": 3,
+            "Bark": 3,
+            "Microgranules": 3,
+            "Chewable Tablet": 2,
+            "Chewing Gums": 2,
+            "Combo Pack": 2,
+            "Expectorant": 2
+        },
+        "USES":{
+          "Immunity Booster":438,
+          "Stomach Care":331,
+          "Skin Care":316,
+          "Cardiac Care":312,
+          "Mind Care":285,
+          "Nutritional Deficiencies":285,
+          "Diabetes Care":274
+        },
+        "ITEMS":[
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            },
+            {
+                "name":"1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large",
+                "src":"../../../../assets/items of masks/1mg-virus-protection-combo-of-sanitizing-wipes-reusable-face-mask-large.jpg",
+                "desc":"packet of 2 Packs",
+                "rating":3.1,
+                "totRating":113,
+                "cost":418
+            },
+            {
+                "name":"1mg-7-layer-washable-reusable-protective-face-mask-medium",
+                "src":"../../../../assets/items of masks/1mg-7-layer-washable-reusable-protective-face-mask-medium.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.1,
+                "totRating":113,
+                "cost":134
+            },
+            {
+                "name":"nasomask-n95-grade-filter-anti-pollution-face-mask",
+                "src":"../../../../assets/items of masks/nasomask-n95-grade-filter-anti-pollution-face-mask.jpg",
+                "desc":"packet of 1 Mask",
+                "rating":3.4,
+                "totRating":20,
+                "cost":242
+            },
+            {
+                "name":"sanfe-n95-face-mask",
+                "src":"../../../../assets/items of masks/sanfe-n95-face-mask.png",
+                "desc":"packet of 1 Mask",
+                "rating":3.9,
+                "totRating":21,
+                "cost":170
+            },
+            {
+                "name":"1mile-disposable-3-ply-face-mask-blue-regular",
+                "src":"../../../../assets/items of masks/1mile-disposable-3-ply-face-mask-blue-regular.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":114,
+                "cost":930
+            },
+            {
+                "name":"control-d-3-reusable-face-shield",
+                "src":"../../../../assets/items of masks/control-d-3-reusable-face-shield.jpg",
+                "desc":"box of 100 Masks",
+                "rating":3.6,
+                "totRating":25,
+                "cost":341
+            },
+            {
+                "name":"faballey-3-ply-tie-on-balloon-reusable-mask-set-indie",
+                "src":"../../../../assets/items of masks/faballey-3-ply-tie-on-balloon-reusable-mask-set-indie.jpg",
+                "desc":"combo pack of 3Masks",
+                "rating":4.1,
+                "totRating":15,
+                "cost":300
+            }
+        ] 
+    }
+}

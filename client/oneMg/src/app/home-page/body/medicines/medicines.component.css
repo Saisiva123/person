@@ -1,0 +1,153 @@
+.medicinesSection
+{
+    max-width: 1670px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    position: relative;
+    margin: 0 auto;
+}
+.headerSec
+{
+    width: 80%;
+    float:left;
+}
+.routingPart
+{
+    width: 60%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #212121;
+    float: left;
+    margin-left: 29px;
+}
+.routingPart p
+{
+    margin: 0;
+    margin-bottom:9px;
+}
+.routingPart p:last-child
+{
+    font-size: 12px;
+    color:#757575;
+}
+.routerPath
+{
+    margin-bottom: 32px;
+}
+.routerPath p
+{
+    float: left;
+    font-size: 12px;
+    color: #ff6f1f;
+    font-weight: 100;
+    letter-spacing:0.6px;
+}
+.routerPath p:last-child::after
+{
+    content: none;
+}
+.routerPath p:last-child
+{
+    color: #212121;
+}
+.routerPath p:not(:nth-child(1))
+{
+    margin-left: 14px;
+}
+.routerPath p::after
+{
+    content: ' /';
+    position: relative;
+    right: -5px;
+    color: #212121;
+}
+.filterOptions
+{
+    width: 100%;
+    margin-left: 29px;
+    margin-bottom: 11px;
+    clear: both;
+}
+.mat-chip-list /deep/  .mat-chip.mat-standard-chip
+{
+    background: transparent;
+    border: 2px solid #ff6f1f;
+    font-size: 13px;
+}
+#clear
+{
+    color: #ff6f61;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.sortSec
+{
+    /* width:24%; */
+    float: right;
+    margin-top: 25px;
+}
+.sortSec ::ng-deep .mat-form-field
+{
+background: white;
+height: 35px;
+border-radius: 5px;
+}
+.sortSec ::ng-deep .mat-form-field-underline
+{
+    display: none;
+}
+.sortSec ::ng-deep .mat-form-field-flex
+{
+    padding-top: 2px;
+}
+.sortSec p{
+    float: left;
+    margin-top: 10px;
+}
+.sortSec ::ng-deep .mat-select-arrow
+{
+    color: rgba(0, 0, 0, 0.54);
+}
+@media only screen and (max-width:1000px)
+{
+  .headerSec{
+    width:75%;
+  }
+  .routingPart
+  {
+      width: 100%;
+  }
+}
+@media only screen and (max-width:779px)
+{
+    .headerSec{
+        width: 100%;
+    }
+    .filterOptions
+    {
+        padding-left:10px;
+        padding-top: 11px;
+        margin-left: 0px;
+        box-sizing: border-box;
+    }
+    #currOption
+    {
+        float: none;
+        clear: both;
+    }
+    .medicinesSection{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .routingPart
+    {
+        float:none;
+        margin-left: 0;
+        padding-left: 11px;
+    box-sizing: border-box;
+    }
+
+}

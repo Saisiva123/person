@@ -1,0 +1,46 @@
+<div class="navigationBar">
+  
+  <img id="logo" src="https://res.cloudinary.com/du8msdgbj/image/upload/v1571306929/logo_k1p18f.svg" />
+  <div class="listOfNavs">
+  <p routerLink="/medicines"  class="sections" routerLinkActive="active">
+    MEDICINES
+  </p>
+  <p routerLink="/labtests"   class="sections" routerLinkActive="active" id="labTest">
+    LAB TESTS
+  </p>
+  <p routerLink="/askdoctor"  class="sections" routerLinkActive="active">
+    ASK DOCTOR
+  </p>
+  <p routerLink="/ayurveda"  class="sections" routerLinkActive="active">
+    AYURVEDA
+  </p>
+  </div>
+
+  <div class="rightSideSec">
+  <div class="access">
+    <p [routerLink]="[{outlets: {Authentication: 'login'}}]" (click)="enableLogin('login')">Login</p>
+    <p [routerLink]="[{outlets: {Authentication: 'signup'}}]" (click)="enableLogin('signup')">Sign Up</p>
+  </div>
+
+  <div class="cartSec">
+  <div class="cart" [ngStyle]="!noOfItemsInCart && {'left':'1px'}" routerLink="/cart" >
+    <img src="../../../../assets/shopping-cart.png">
+    <p *ngIf="noOfItemsInCart" id="itemsInCart">{{noOfItemsInCart}}</p>
+  </div>
+
+  <div class="descOfItemsInCart" >
+    <div id="descTitle">
+      <p>ORDER SUMMARY</p>
+      <P>{{noOfItemsInCart}} Items</P>
+    </div>
+   <p>{{firstCartItem}}</p>
+   <p>{{secondCartItem}}</p>
+    <p *ngIf="noOfItemsInCart>2" id="moreItems">+{{noOfItemsInCart-2}}  MORE ITEMS</p>
+    <p id="proceedToCart" routerLink="/cart">PROCEED TO CART</p>
+  </div>
+  </div>
+
+  <p id="needHelp">Need Help ?</p>
+  </div>
+
+</div>

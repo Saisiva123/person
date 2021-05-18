@@ -1,0 +1,7 @@
+<div class="text" *ngFor="let msg of txtMessages.msg;let i=index">
+    <div [ngClass]="txtMessages.source=='bot' ? 'botRes' : 'userRes'" >
+        <img src="../../../../../assets/mascot.png" class="botIcon">
+        <p (click)="clicked(txtMessages)">
+            {{msg}}</p>
+    </div>
+</div>

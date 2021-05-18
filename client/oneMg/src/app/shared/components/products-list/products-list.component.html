@@ -1,0 +1,48 @@
+<div class="products" *ngIf="showLoader">
+  <div class="product" *ngFor="let product of loaderProducts">
+    <ngx-skeleton-loader count="1" appearance="line" class="skeletonLoader">
+    </ngx-skeleton-loader>
+    <ngx-skeleton-loader count="1" appearance="line" class="skeletonLoader">
+    </ngx-skeleton-loader>
+    <ngx-skeleton-loader count="1" appearance="line" class="skeletonLoader">
+    </ngx-skeleton-loader>
+    <ngx-skeleton-loader count="1" appearance="line" class="skeletonLoader">
+    </ngx-skeleton-loader>
+  </div>
+</div>
+
+<div class="products" *ngIf="!showLoader">
+  <div class="product" *ngFor="
+      let product of currPageItems
+        | paginate
+          : {
+              id: 'products',
+              itemsPerPage: totItemsPerPage,
+              currentPage: p,
+              totalItems: totItems
+            };
+      let i = index
+    " #productList>
+    <img [src]="product.src" />
+    <p id="title">{{ product.name }}</p>
+    <p id="description">{{ product.desc }}</p>
+    <div class="ratings">
+      <div id="valueOfRating">
+        <p id="value">{{ product.rating }}</p>
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 51 48">
+          <path fill="#ffffff" stroke="none" d="m25,1 6,17h18l-14,11 5,17-15-10-15,10 5-17-14-11h18z"></path>
+        </svg>
+      </div>
+      <p id="noOfRatings">{{ product.totRating }} Ratings</p>
+    </div>
+    <div class="money">
+      <p id="rupees">₹{{ product.cost }}</p>
+      <p class="add" (click)="addItemToCart($event, i)">ADD</p>
+    </div>
+  </div>
+</div>
+<div class="paginator">
+  <pagination-controls class="productPagination" id="products" (pageChange)="pageChange($event)" responsive="true"
+    previousLabel="Previous" nextLabel="Next"></pagination-controls>
+</div>
+<div class="removeFloat"></div>

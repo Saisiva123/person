@@ -1,0 +1,14 @@
+<div class="selectionListOverlay" *ngIf="!submitted">
+    <p>Select One Option</p>
+    <div class="listOfSymptoms">
+        <div class="list" (click)="selectedSymptom(values.txt)" [ngClass]="showRemaining || (i < 3) ? 'enable':'disable'" *ngFor="let values of listOfSymptomMessages.msg;let i=index">
+            <img src={{values.url}}>
+            <p>{{values.txt}}</p>
+        </div>
+    </div>
+    <p (click)="showMore()">{{viewTxt}}</p>
+</div>
+
+<div class="selectionListOverlay" *ngIf="submitted" [ngClass]="{'removeBg':submitted }">
+<p id="selectedTxt" *ngIf="submitted">{{selectedVal}}</p>
+</div>

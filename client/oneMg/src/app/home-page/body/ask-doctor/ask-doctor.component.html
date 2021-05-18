@@ -1,0 +1,8 @@
+<div class="askDocOverlay">
+    <div class="launch" *ngIf="enableLaunchIcon">
+        <p>Health Assistant</p>
+        <p>I'll help you with all your medicinal needs.</p>
+    <img class="chatIcon" src="../../../../assets/mascotBlackBG.png" (click)="disableLaunchIcon()">
+    </div>
+    <app-chat-window *ngIf="enableChatWindow" (disableChatWindow)="toggleLaunchIcon($event)" [enableChatWindow]="enableChatWindow"></app-chat-window>
+</div>

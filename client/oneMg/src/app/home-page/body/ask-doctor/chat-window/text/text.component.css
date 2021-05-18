@@ -1,0 +1,64 @@
+
+.text  p
+{
+    width: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    box-sizing: border-box;
+}
+
+.botRes > p
+{
+  max-width: 80%;
+  background-color: #707e8f;
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.botRes > p::before
+{
+  content:"";
+  width: 0px;
+  height: 0px;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 8px solid #707e8f;
+  position:absolute;
+  right: 100%;
+  top: 4px;
+}
+
+.userRes > p
+{
+  float:right;
+  position: relative;
+  background-color: #fa9e96;
+  color:white;
+  box-shadow: 0px 0px 4px grey;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+
+.botRes
+{
+  float:left
+}
+
+.userRes
+{
+  float: right;
+  width: 85%;
+}
+.userRes > img
+{
+  display: none;
+}
+.botIcon
+{
+  margin-right: 8px;
+  width: 25px;
+  float: left;
+}

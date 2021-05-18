@@ -1,0 +1,28 @@
+<div class="loaderSec" *ngIf="showLoader">
+    <ngx-skeleton-loader count="8" appearance="line" class="loaders"></ngx-skeleton-loader>
+</div>
+<div class="categorySection" *ngIf="!showLoader"
+    [ngStyle]=" !showCategorySection && {'display':'none'} || showCategorySection && {'display':'block'}">
+    
+    <mat-form-field class="select" appearance="fill" *ngFor="let options of totSelectCategories;let i=index">
+        <mat-label>{{options}}</mat-label>
+        <mat-select [formControl]="categoriesControl"  (selectionChange)="selectOption($event)" >
+            <span *ngIf="setOfOptions[i].length">
+                
+                <mat-option *ngFor="let data of setOfOptions[i]" value={{options}}>
+                    {{data}}
+                </mat-option>
+            </span>
+            <span *ngIf="!setOfOptions[i].length">
+                <mat-optgroup *ngFor="let group of setOfOptions[i]['group']" [label]="group.name"
+                    [disabled]="group.disabled">
+                   
+                    <mat-option *ngFor="let data of group.data" value={{options}}>
+                        {{data.viewValue}} 
+                    </mat-option>
+                </mat-optgroup>
+            </span>
+        </mat-select>
+    </mat-form-field>
+
+</div>

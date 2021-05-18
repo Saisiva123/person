@@ -1,0 +1,63 @@
+<div class="cart">
+    <img src="../../../../assets/empytCart.png" id="noItem" *ngIf="this.listOfItemsInCart.length>0?false:true">
+
+    <div class="left" *ngIf="this.listOfItemsInCart.length>0?true:false">
+        <div>
+            <div class="itemReview" *ngFor="let item of listOfItemsInCart;let i=index" #item>
+
+                <div>
+                    <p>{{item.name}}</p>
+                    <p id="price">{{item.price * noOfItems[i]}}</p>
+                </div>
+                <div>
+                    <p>{{item.description}}</p>
+                    <p>MRP <span class="price">₹89</span></p>
+                </div>
+                <div id="remove">
+                    <img id="removeIcon" src="https://img.1mg.com/images/delete_icon.svg"
+                        (click)="deleteItemFromCart(item.name,i)">
+                    <p (click)="deleteItemFromCart(item.name,i)">Remove</p>
+                    <div>
+                        <img src="https://www.1mg.com/images/minus-cart.svg" (click)="decreaseItem(i,item.name)">
+                        <p id="noOfItems">{{noOfItems[i]}}</p>
+                        <img src="https://www.1mg.com/images/plus-cart.svg" (click)="increaseItem(i)">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="right" *ngIf="this.listOfItemsInCart.length>0?true:false">
+        <div id="totAmount">
+            <p>Item Total(MRP)</p>
+            <p>₹{{totPriceOfAllItems}}</p>
+        </div>
+        <div>
+            <p>Price Discount</p>
+            <p>-₹0</p>
+        </div>
+        <div>
+            <p>Shipping Fee</p>
+            <p>As Per delivery Adress</p>
+        </div>
+        <div>
+            <p>To Be Paid</p>
+            <p>₹{{totPriceOfAllItems}}</p>
+        </div>
+        <div>
+            <p>Total Savings</p>
+            <p>₹0</p>
+        </div>
+
+    </div>
+
+    <div class="btnCheckOut" *ngIf="this.listOfItemsInCart.length>0?true:false">
+        <div class="leftTxt">
+            <p>TO BE PAID</p>
+            <p>₹{{totPriceOfAllItems}}</p>
+        </div>
+        <p class="rightTxt">CHECKOUT</p>
+    </div>
+</div>

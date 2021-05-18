@@ -1,0 +1,226 @@
+.products {
+  width: 80%;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-right: 11px;
+}
+p {
+  margin: 0;
+}
+
+.product ,.products /deep/ .progress{
+  float: left;
+  width: 20%;
+  /* min-width: 160px; */
+  height: 314px;
+  background: white;
+  margin: 5px 10px 15px;
+  padding: 12px;
+  position: relative;
+  text-align: center;
+  border-radius: 4px;
+}
+.skeletonLoader ::ng-deep .loader.progress {
+  width: 100%;
+  height: 186px;
+  margin: 0 auto;
+  background-image: linear-gradient(90deg,rgba(211,211,211,0),rgba(211,211,211,0.6),rgba(211,211,211,0));
+}
+.skeletonLoader:not(:first-child) ::ng-deep .loader.progress 
+{
+    height: 17px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.skeletonLoader:nth-child(2) ::ng-deep .loader.progress
+{
+  width: 50%;
+  margin-top: 29px;
+}
+.skeletonLoader:nth-child(3) ::ng-deep .loader.progress
+{
+  width: 75%;
+}
+.skeletonLoader:nth-child(4) ::ng-deep .loader.progress
+{
+  width: 90%;
+}
+
+
+
+.products /deep/ .progress
+{
+  width: 22%;
+  background:none;
+}
+.product:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 7px lightgrey;
+  cursor: pointer;
+}
+.product img {
+  width: 150px;
+  height: 150px;
+  margin: 23px auto 10px auto;
+}
+#title {
+  margin: 0;
+  color: #5a5a5a;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    max-height: 3em;
+    overflow: hidden;
+}
+#description {
+  text-align: left;
+  font-size: 12px;
+  color: #757575;
+}
+.ratings {
+  width: 90%;
+  color: white;
+  position: absolute;
+  bottom: 50px;
+}
+#valueOfRating {
+  background-color: #1aab2a;
+  border-radius: 3px;
+  float: left;
+  font-size: 12px;
+  padding: 3px 4px;
+  height:19px;
+  padding-bottom: 0;
+}
+#valueOfRating > p:nth-child(1) {
+  margin-right: 5px;
+  margin-left:2px;
+  float: left;
+  line-height: 17px;
+}
+
+#noOfRatings {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 12px;
+  color: #757575;
+}
+.money {
+  font-size: 17px;
+  width: 90%;
+  position: absolute;
+  bottom: 11px;
+}
+.money p {
+  float: left;
+  color: #5a5a5a;
+  font-size: 18px;
+}
+.money >.add{
+  color: #ff6f61;
+  float: right;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+.paginator
+{
+    width: 78%;
+    height: 53px;
+    margin-right: 26px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    position: relative;
+    /* margin: 0 auto; */
+    float: right;
+    border-radius: 5px;
+}
+.productPagination
+{
+  font-size: 14px;
+  font-family: sans-serif;
+  letter-spacing: 0.7px;
+}
+.productPagination /deep/ .ngx-pagination .current
+{
+  background: none !important;
+  color:#ff6f61 !important;
+}
+.productPagination /deep/ .pagination-previous a,.productPagination /deep/ .pagination-next a
+{
+  color:#ff6f61;
+}
+.productPagination /deep/ .disabled
+{
+  color: darkgrey;
+    cursor: not-allowed;
+}
+.removeFloat
+{
+  clear: both;
+}
+@media only screen and (max-width:1151px)
+{
+  .product{
+    width:27%;
+  }
+}
+@media only screen and (max-width:1000px)
+{
+  .product{
+    width:40%;
+  }
+  .products{
+    width:71%;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width:779px)
+{
+.products
+  {
+      width: 100%;
+      margin-right: 0;
+  }
+  .product{
+    width:27%;
+    margin: 5px 8px 15px;
+  }
+  .products /deep/ .progress
+  {
+    margin: 5px 8px 15px;
+  }
+}
+@media only screen and (max-width:632px)
+{
+  .product{
+    width:43%;
+    margin: 5px 3px 15px;
+  }
+  /* .products /deep/ .progress
+  {
+    margin: 5px 8px 15px;
+  } */
+}
+@media only screen and (max-width:430px)
+{
+  .product{
+    width:100%;
+    margin: 5px 3px 15px;
+  }
+  /* .products /deep/ .progress
+  {
+    margin: 5px 8px 15px;
+  } */
+}

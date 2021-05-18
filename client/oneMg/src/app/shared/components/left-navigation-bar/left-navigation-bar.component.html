@@ -1,0 +1,19 @@
+<ngx-skeleton-loader count="28" appearance="line"   *ngIf="showLoader" class="nav"></ngx-skeleton-loader>
+
+<div class="nav" *ngIf="!showLoader">
+  <div *ngFor="let key of keys; let i = index" class="headings">
+    <p id="subHeader">{{ key }}</p>
+<div *ngIf="key=='CATEGORIES';else downTemplate">
+    <div *ngFor="let item of navData[key] | keyvalue" class="item">
+      <p [ngClass]="{'active':activeOption==item.value,'cursor':key=='CATEGORIES'}"
+       (click)="key=='CATEGORIES' && selectedOptionInCategory($event)">{{ item.value }}</p>
+    </div>
+</div>
+    <ng-template #downTemplate>
+    <section class="example-section" *ngFor="let item of navData[key] | keyvalue" >
+      <p (click)="selectedOptionInFilters(item.key)">{{item.key}}</p>
+      <p>{{ item.value }}</p>
+     </section>
+    </ng-template>
+  </div>
+</div> 

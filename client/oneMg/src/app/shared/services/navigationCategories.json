@@ -1,0 +1,454 @@
+{
+  "All Medicines": {
+    "CATEGORIES": [
+      "Body Pains",
+      "Muscle Pains",
+      "Joint Pains",
+      "Headache",
+      "Sexual Medicines"
+    ],
+    "PRODUCT TAGS": {
+      "Antioxidant": {
+        "value": 22,
+        "checked": false
+      },
+      "Oxidant": {
+        "value": 7,
+        "checked": false
+      },
+      "Ayurvedic": {
+        "value": 6,
+        "checked": false
+      },
+      "Diuretic": {
+        "value": 10,
+        "checked": false
+      },
+      "Fragrant": {
+        "value": 12,
+        "checked": false
+      },
+      "Sanctum": {
+        "value": 2,
+        "checked": false
+      },
+      "Ashwagandha": {
+        "value": 3,
+        "checked": false
+      },
+      "Bhumyamalika": {
+        "value": 90,
+        "checked": false
+      },
+      "Detoxification": {
+        "value": 12,
+        "checked": false
+      },
+      "Haritaki": {
+        "value": 212,
+        "checked": false
+      },
+      "Premature Ageing": {
+        "value": 202,
+        "checked": false
+      },
+      "Bibhitaki": {
+        "value": 4,
+        "checked": false
+      }
+    },
+    "DISCOUNT": {
+      "Less than 10%": {
+        "value": 95,
+        "checked": false
+      },
+      "10% and above": {
+        "value": 10,
+        "checked": false
+      },
+      "20% and above": {
+        "value": 212,
+        "checked": false
+      },
+      "30% and above": {
+        "value": 9,
+        "checked": false
+      }
+    },
+    "PRODUCT FORM": {
+      "Vegicap": {
+        "value": 12,
+        "checked": false
+      },
+      "Tea Bag": {
+        "value": 19,
+        "checked": false
+      },
+      "Capsule": {
+        "value": 17,
+        "checked": false
+      },
+      "Oil": {
+        "value": 9,
+        "checked": false
+      },
+      "Powder": {
+        "value": 6,
+        "checked": false
+      },
+      "Liquid": {
+        "value": 19,
+        "checked": false
+      },
+      "Serum": {
+        "value": 79,
+        "checked": false
+      },
+      "Paste": {
+        "value": 9,
+        "checked": false
+      },
+      "Tea": {
+        "value": 902,
+        "checked": false
+      }
+    },
+    "USES": {
+      "Mind Care": {
+        "value": 31,
+        "checked": false
+      },
+      "Skin Care": {
+        "value": 22,
+        "checked": false
+      },
+      "Immunity Booster": {
+        "value": 21,
+        "checked": false
+      },
+      "Stomach Care": {
+        "value": 17,
+        "checked": false
+      },
+      "Nutritional Deficiencies": {
+        "value": 10,
+        "checked": false
+      },
+      "Weight Management": {
+        "value": 11,
+        "checked": false
+      },
+      "Bone,Joint & Muscle": {
+        "value": 98,
+        "checked": false
+      },
+      "Sexual Wellness": {
+        "value": 9,
+        "checked": false
+      },
+      "Cardiac Care": {
+        "value": 9,
+        "checked": false
+      },
+      "Women Care": {
+        "value": 8,
+        "checked": false
+      },
+      "Liver Care": {
+        "value": 9,
+        "checked": false
+      }
+    }
+  },
+  "coronavirus Prevention": {
+    "CATEGORIES": [
+      "Boost Your Immunity",
+      "Masks",
+      "Pulse Oximeter",
+      "Sanitizer",
+      "Thermometers",
+      "Disinfectants"
+    ],
+    "BRANDS": {
+      "Boost Your Immunity": {
+        "Rhino": 5,
+        "Sharrets": 5,
+        "Shrey's": 5,
+        "Vedaone": 5,
+        "Vitrovea": 5,
+        "AVG": 4,
+        "Age Ayurveda": 4,
+        "Alna": 4,
+        "Bioneeva Herbs": 4
+      },
+      "Masks": {
+        "Faballey": 63,
+        "Airific": 24,
+        "Linen Club": 24,
+        "Dominion Care": 23,
+        "Care View": 22,
+        "SilverPRO": 19,
+        "Soxytoes": 18,
+        "Hyzinik": 17
+      }
+    },
+    "DISCOUNT": {
+      "Boost Your Immunity": {
+        "Less than 10%": 10,
+        "10% and above": 283,
+        "20% and above": 128,
+        "30% and above": 100
+      },
+      "Masks": {
+        "Less than 10%": 170,
+        "10% and above": 383,
+        "20% and above": 208,
+        "30% and above": 160
+      }
+    },
+    "PRODUCT FORM": {
+      "Vegicap": {
+        "value": 12,
+        "checked": false
+      },
+      "Tea Bag": {
+        "value": 19,
+        "checked": false
+      },
+      "Capsule": {
+        "value": 17,
+        "checked": false
+      },
+      "Oil": {
+        "value": 9,
+        "checked": false
+      },
+      "Powder": {
+        "value": 6,
+        "checked": false
+      },
+      "Liquid": {
+        "value": 19,
+        "checked": false
+      },
+      "Serum": {
+        "value": 79,
+        "checked": false
+      },
+      "Paste": {
+        "value": 9,
+        "checked": false
+      },
+      "Tea": {
+        "value": 902,
+        "checked": false
+      }
+    },
+    "USES": {
+      "Mind Care": {
+        "value": 31,
+        "checked": false
+      },
+      "Skin Care": {
+        "value": 22,
+        "checked": false
+      },
+      "Immunity Booster": {
+        "value": 21,
+        "checked": false
+      },
+      "Stomach Care": {
+        "value": 17,
+        "checked": false
+      },
+      "Nutritional Deficiencies": {
+        "value": 10,
+        "checked": false
+      },
+      "Weight Management": {
+        "value": 11,
+        "checked": false
+      },
+      "Bone,Joint & Muscle": {
+        "value": 98,
+        "checked": false
+      },
+      "Sexual Wellness": {
+        "value": 9,
+        "checked": false
+      },
+      "Cardiac Care": {
+        "value": 9,
+        "checked": false
+      },
+      "Women Care": {
+        "value": 8,
+        "checked": false
+      },
+      "Liver Care": {
+        "value": 9,
+        "checked": false
+      }
+    }
+  },
+  "Featured": {
+    "CATEGORIES": [
+      "1mg Health Products",
+      "Trending Products",
+      "Explore Something New",
+      "Top Brands"
+    ],
+    "PRODUCT TAGS": {
+      "Antioxidant": {
+        "value": 1,
+        "checked": false
+      },
+      "Oxidant": {
+        "value": 2,
+        "checked": false
+      },
+      "Ayurvedic": {
+        "value": 3,
+        "checked": false
+      },
+      "Diuretic": {
+        "value": 10,
+        "checked": false
+      },
+      "Fragrant": {
+        "value": 12,
+        "checked": false
+      },
+      "Sanctum": {
+        "value": 2,
+        "checked": false
+      },
+      "Ashwagandha": {
+        "value": 3,
+        "checked": false
+      },
+      "Bhumyamalika": {
+        "value": 90,
+        "checked": false
+      },
+      "Detoxification": {
+        "value": 12,
+        "checked": false
+      },
+      "Haritaki": {
+        "value": 212,
+        "checked": false
+      },
+      "Premature Ageing": {
+        "value": 202,
+        "checked": false
+      },
+      "Bibhitaki": {
+        "value": 4,
+        "checked": false
+      }
+    },
+    "DISCOUNT": {
+      "Less than 10%": {
+        "value": 95,
+        "checked": false
+      },
+      "10% and above": {
+        "value": 10,
+        "checked": false
+      },
+      "20% and above": {
+        "value": 212,
+        "checked": false
+      },
+      "30% and above": {
+        "value": 9,
+        "checked": false
+      }
+    },
+    "PRODUCT FORM": {
+      "Vegicap": {
+        "value": 12,
+        "checked": false
+      },
+      "Tea Bag": {
+        "value": 19,
+        "checked": false
+      },
+      "Capsule": {
+        "value": 17,
+        "checked": false
+      },
+      "Oil": {
+        "value": 9,
+        "checked": false
+      },
+      "Powder": {
+        "value": 6,
+        "checked": false
+      },
+      "Liquid": {
+        "value": 19,
+        "checked": false
+      },
+      "Serum": {
+        "value": 79,
+        "checked": false
+      },
+      "Paste": {
+        "value": 9,
+        "checked": false
+      },
+      "Tea": {
+        "value": 902,
+        "checked": false
+      }
+    },
+    "USES": {
+      "Mind Care": {
+        "value": 31,
+        "checked": false
+      },
+      "Skin Care": {
+        "value": 22,
+        "checked": false
+      },
+      "Immunity Booster": {
+        "value": 21,
+        "checked": false
+      },
+      "Stomach Care": {
+        "value": 17,
+        "checked": false
+      },
+      "Nutritional Deficiencies": {
+        "value": 10,
+        "checked": false
+      },
+      "Weight Management": {
+        "value": 11,
+        "checked": false
+      },
+      "Bone,Joint & Muscle": {
+        "value": 98,
+        "checked": false
+      },
+      "Sexual Wellness": {
+        "value": 9,
+        "checked": false
+      },
+      "Cardiac Care": {
+        "value": 9,
+        "checked": false
+      },
+      "Women Care": {
+        "value": 8,
+        "checked": false
+      },
+      "Liver Care": {
+        "value": 9,
+        "checked": false
+      }
+    }
+  }
+}

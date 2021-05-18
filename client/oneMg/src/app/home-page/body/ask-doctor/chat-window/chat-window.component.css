@@ -1,0 +1,78 @@
+.chatWindow {
+  width: 400px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  top: 10px;
+  z-index: 2;
+  background-image: url("../../../../../assets/chatBg.png");
+  background-size: 100% 126%;
+  box-shadow: 0px 33px 35px grey;
+}
+.title {
+  width: 100%;
+  height: 100px;
+  background: #ff6f61;
+  text-align: center;
+  color: white;
+}
+.title > img {
+  width: 58px;
+  margin-top: 10px;
+}
+.closeIcon {
+  position: absolute;
+  right: 7px;
+  top: 6px;
+  cursor: pointer;
+  width: 9px !important;
+  margin: 0 !important;
+}
+.title > p {
+  font-size: 14px;
+  font-weight: 600;
+}
+.msgWindow {
+  width: 100%;
+  top: 100px;
+  bottom: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  overflow-y: scroll;
+  background-color: rgba(255, 255, 255,0.4);
+}
+.decreaseHeight
+{
+  bottom: 50px;
+}
+
+.messages {
+  width: 100%;
+}
+.msgWindow::-webkit-scrollbar 
+{
+  display: none;
+}
+
+.msgWindow 
+{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.img
+{
+  clear: both;
+}
+.img > img:first-child,.img > img:nth-child(2)
+{
+  margin-right: 8px;
+  width: 34px;
+  float: left;
+}
+.img > img:nth-child(2)
+{
+  width: 50px;
+  margin-top: -10px;
+}

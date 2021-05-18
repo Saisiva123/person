@@ -1,0 +1,6 @@
+<div class="input" *ngIf="showInput">
+    <input type="text" [(ngModel)]="inputValue" placeholder="Enter here.." (keydown)="submitAfterClickingEnter($event)">
+    <img src="../../../../../../assets/speech.gif" class="speechIcon" (click)="toggleSpeechIcon()"  *ngIf="showAnimatedSpeechIcon">
+    <div class="simpleSpeechIcon" *ngIf="!showAnimatedSpeechIcon" (click)="audio()"></div>
+    <mat-icon class="sendIcon" (click)="sendValOfInput()">send</mat-icon>
+</div>

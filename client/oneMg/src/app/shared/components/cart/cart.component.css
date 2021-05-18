@@ -1,0 +1,230 @@
+.cart
+{
+    width: 85%;
+    height:100%;
+    margin: 0 auto;
+    position: relative;
+    top:50px;
+    text-align: center;
+}
+
+.cart > div:nth-child(1)
+{
+    float: left;
+    width: 55%;
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    box-shadow: 0px 1px 6px grey;
+}
+#price::before
+{
+    content:"₹";
+}
+.itemReview
+{
+    width: 100%;
+    height:98px;
+    position: relative;
+    margin-bottom: 6px;
+    border-bottom: 1px solid lightgrey;
+}
+.itemReview:last-child
+{
+    border: none;
+    margin:0;
+}
+.itemReview > div:nth-child(1) p:nth-child(1)
+{
+    float:left;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 0;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    max-height: 3em;
+    width: 67%;
+    overflow: hidden;
+    text-align: left;
+}
+.itemReview > div:nth-child(1) p:nth-child(2)
+{
+    float:right;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.itemReview > div:nth-child(2) p:nth-child(1)
+{
+    clear: both;
+    float:left;
+    font-weight: 100;
+    font-size: 11px;
+    margin: 0;
+    color: #9E9E9E;
+}
+.itemReview > div:nth-child(2) p:nth-child(2)
+{
+    float:right;
+    font-weight: 100;
+    font-size: 11px;
+    margin: 0;
+    color: #9E9E9E;
+
+}
+.right
+{
+    float: right;
+    width: 39%;
+    height:220px;
+    background-color: white;
+}
+#remove
+{
+    width: 96%;
+    height: 30px;
+    bottom: 16px;
+    position: absolute;
+}
+#removeIcon
+{
+    margin-top: 12px;
+}
+#remove img
+{
+    float: left;
+}
+#remove > p
+{
+    margin: 0;
+    float: left;
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 10px;
+    color: #9E9E9E;
+}
+#remove > div
+{
+    float: right;
+    right: -29px;
+    position: relative;
+    top: 6px;
+
+}
+#noOfItems
+{
+    margin: 0;
+    float: left;
+    margin-top: 6px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+span{
+    text-decoration: line-through;
+}
+.right{
+    box-shadow: 2px 12px 22px grey;
+}
+.right p
+{
+    margin: 0;
+}
+.right > div
+{
+    width:96% !important;
+    height:42px;
+    line-height: 39px;
+    margin:0 auto;
+    padding:3px 7px;
+    font-size: 12px;
+    color: #757575;
+    box-sizing: border-box;
+}
+.right > div:nth-child(2),.right > div:nth-child(3)
+{
+    border-bottom:1px solid lightgrey;
+}
+.right > div p:first-child
+{
+    clear:both;
+    float: left;
+}
+.right > div p:last-child
+{
+    float: right;
+}
+.right > div:nth-last-child(1)
+{
+    background: #E4F6E7;
+}
+.right > div:nth-last-child(1) p:last-child
+{
+    color:#1AAB2A;
+    font-size: 14px;
+    font-weight:600;
+}
+.right > div:nth-last-child(2)
+{
+    font-size:14px;
+    font-weight: 600;
+}
+.btnCheckOut
+{
+    width: 80%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    height: 19px;
+    background: #ff6f61;
+    padding: 14px;
+    border-radius: 5px;
+    color: white;
+}
+.leftTxt
+{
+    float: left;
+    margin-top: -10px;
+    width: 120px;
+    border-right: 1px solid white;
+}
+.leftTxt > p{
+    margin: 0;
+    font-size: 11px;
+    letter-spacing:0.3px
+}
+.leftTxt > p:last-child
+{
+    font-size: 15px;
+    font-weight: 600;
+}
+.rightTxt
+{
+    float: right;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing:0.3px;
+}
+@media only screen and (max-width:600px)
+{
+#noItem
+{
+    width: 80%;   
+}
+}
+@media only screen and (max-width:778px)
+{
+.cart > div:nth-child(1),.right
+{
+    width: 100%;
+    float:none;   
+    box-sizing: border-box;
+}
+.right
+{
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+}

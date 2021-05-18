@@ -1,0 +1,52 @@
+<div class="overlay" (click)="disableLogin()" *ngIf="showLogin">
+  <div class="authentication" (click)="$event.stopPropagation()">
+    <div class="leftSide">
+      <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+          <div class="slickItem">
+            <img [src]=slide.img>
+            <p id="title">{{slide.content.title}}</p>
+            <p id="text">{{slide.content.text}}</p>
+          </div>
+        </div>
+
+      </ngx-slick-carousel>
+    </div>
+    <div class="rightSide">
+      <div class="login" *ngIf="authCategory=='login'">
+        <p id="header">Login</p>
+        <p>Get access to your orders, lab tests & doctor consultations
+          Enter Email ID or Mobile Number</p>
+        <form>
+          <mat-form-field>
+            <input matInput placeholder="Enter Mobile ID or Mobile Number">
+          </mat-form-field>
+
+          <mat-form-field>
+            <input matInput placeholder="Enter Password" [type]="hide ? 'password' : 'text'">
+            <mat-icon class="matIcon" matSuffix (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </mat-form-field>
+
+          <p id="forgotPassword">Forgot Password?</p>
+          <button mat-raised-button class='button'>LOGIN</button>
+        </form>
+        <div id="signUp">
+        <p id="new">New on 1mg?</p><p (click)="changeAuthCategory('signup')">Sign up</p>
+        </div>
+      </div>
+      <div class="signup"  *ngIf="authCategory=='signup'">
+        <p id="header">Sign Up</p>
+        <p>Please enter your Mobile number to receive One Time Password (OTP)</p>
+        <form>
+          <mat-form-field>
+            <input matInput placeholder="Enter Mobile Number">
+          </mat-form-field>
+         <button mat-raised-button class='button'>CONTINUE</button>
+        </form>
+        <div id="signUp">
+        <p id="new">Have an Account?</p><p (click)="changeAuthCategory('login')">Login</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
